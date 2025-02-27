@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kalkulator Walut</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/share.png" />
+    <meta property="og:image" content="images/share.png" />
+    <meta property="og:title" content="Kalkulator Walut" />
+    <meta
+      property="og:description"
+      content="Prosty kalkulator walutowy do przeliczania kwot."
+    />
+    <meta property="og:url" content="https://antonis04.github.io/KalkulatorWalut/" />
+    <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="converter-container">
-        <h1>Kalkulator Walut</h1>
-        <input type="number" id="kwota" placeholder="Kwota w €">
-        <input type="number" id="kurs" placeholder="Aktualny kurs" >
-        <button id="przelicz">Przelicz</button>
-        <div class="result" id="wynik"></div>
+      <h1>Kalkulator Walut</h1>
+      <input type="number" id="kwota" placeholder="Kwota w €" />
+      <input type="number" id="kurs" placeholder="Aktualny kurs" />
+      <button id="przelicz">Przelicz</button>
+      <div class="result" id="wynik"></div>
     </div>
-</body>
+  </body>
 </html>
